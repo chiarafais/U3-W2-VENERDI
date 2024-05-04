@@ -61,6 +61,7 @@ i.bi.bi-search {
 }
 img.card-img {
   width: 200px;
+  filter: drop-shadow(1px 2px 7px black);
 }
 .textCardMeteo {
   display: flex;
@@ -135,4 +136,7 @@ span.badge {
 }
 .tempCardDay {
   font-size: 1.7em;
+}
+img.card-img-top {
+  filter: drop-shadow(1px 2px 7px black);
 }
