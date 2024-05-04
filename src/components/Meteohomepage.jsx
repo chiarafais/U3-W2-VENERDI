@@ -1,11 +1,11 @@
 import { useState } from "react";
-import { Button, Col, Container, Row } from "react-bootstrap";
+import { Alert, Button, Col, Container, Row } from "react-bootstrap";
 import Form from "react-bootstrap/Form";
 import { useNavigate } from "react-router-dom";
 
 const Meteohomepage = () => {
   const [searchCity, setSearchCity] = useState("");
-
+  const [notCity, setNotCity] = useState(false);
   const navigate = useNavigate();
 
   const fetchCity = () => {
@@ -20,10 +20,16 @@ const Meteohomepage = () => {
       })
       .then((city) => {
         console.log(city);
-        navigate(`/Meteopage/${city[0].lon}/${city[0].lat}`);
+
+        if (city.length === 0) {
+          setNotCity(true);
+        } else {
+          navigate(`/Meteopage/${city[0].lon}/${city[0].lat}`);
+        }
       })
       .catch((err) => {
         console.log(err);
+        setNotCity(true);
       });
     // .finally(() => setIsLoading(false));
   };
@@ -46,6 +52,11 @@ const Meteohomepage = () => {
               <i className="bi bi-search"></i>
             </Button>
           </Col>
+          {notCity && (
+            <Alert className="mt-2" variant="info" onClose={() => setNotCity(false)} dismissible>
+              <Alert.Heading>Non ho trovato una città con questo nome!</Alert.Heading>
+            </Alert>
+          )}
         </Container>
       </div>
     </div>
