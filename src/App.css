@@ -3,7 +3,7 @@
 .mainHomepage {
   height: 100vh;
   background-size: cover;
-  background-image: url("https://img.freepik.com/free-photo/fantasy-style-scene-with-mountains-landscape_23-2151124795.jpg?t=st=1714752566~exp=1714756166~hmac=d21762b0f4eb540ad88df9f4b9662747555d2a4775c2e23ac7504b930d685b9d&w=1380");
+  background-image: url("https://img.freepik.com/free-photo/fantasy-style-scene-with-mountains-landscape_23-2151124795.jpg?t=st=1717517591~exp=1717521191~hmac=95c9dacf681f7b1d7d285004aec43b1dd3be6e9f085cf83a1f804a95eb500638&w=1060");
 }
 .mainMeteoPage {
   display: flex;
@@ -13,7 +13,7 @@
   height: 100vh;
   overflow: auto;
   background-size: cover;
-  background-image: url("https://img.freepik.com/free-photo/anime-style-clouds_23-2151071681.jpg?t=st=1714774477~exp=1714778077~hmac=d3da191630f29945ab3b274903a2f5f9c33757df4499d45c6adf5539d476e194&w=1380");
+  background-image: url("https://img.freepik.com/free-photo/anime-style-clouds_23-2151071678.jpg?t=st=1717518124~exp=1717521724~hmac=b3b8ce2f690dd7d7b9551c8bba124bb913491ef8855217adbdf17ebebccaf9a5&w=1060");
 }
 .mainMeteoPageNight {
   /*QUESTO SERVE A  CAMBIARE IL BACKGROUND, SE è GIORNO HA UN IMMAGINE, SE è NOTTE UN ALTRA */
@@ -24,7 +24,7 @@
   height: 100vh;
   overflow: auto;
   background-size: cover;
-  background-image: url("https://img.freepik.com/free-photo/los-angeles-night-with-urban-buildings-black-white_649448-48.jpg?t=st=1714776219~exp=1714779819~hmac=10b22797c4a4d4ecfab97c31bfdf3e326a75d979347e87219b1905f288215db6&w=826");
+  background-image: url("https://img.freepik.com/free-photo/digital-art-with-city-landscape-architecture_23-2151065703.jpg?t=st=1717518590~exp=1717522190~hmac=f49494727f97c797d2e90a09decf01b0e6a553a0b7f8c0e4bcf341bb49508fa9&w=1380");
 }
 input.form-control.form-control-lg {
   width: 70%;
@@ -61,7 +61,7 @@ i.bi.bi-search {
 }
 img.card-img {
   width: 200px;
-  filter: drop-shadow(1px 2px 7px black);
+  filter: drop-shadow(1px 2px 7px #5a5959);
 }
 .textCardMeteo {
   display: flex;
@@ -113,7 +113,7 @@ span.badge {
   align-items: center;
   height: 100vh;
   background-size: cover;
-  background-image: url("https://img.freepik.com/free-photo/fantasy-style-scene-with-mountains-landscape_23-2151124795.jpg?t=st=1714752566~exp=1714756166~hmac=d21762b0f4eb540ad88df9f4b9662747555d2a4775c2e23ac7504b930d685b9d&w=1380");
+  background-image: url("https://img.freepik.com/free-photo/fantasy-style-scene-with-mountains-landscape_23-2151124795.jpg?t=st=1717517591~exp=1717521191~hmac=95c9dacf681f7b1d7d285004aec43b1dd3be6e9f085cf83a1f804a95eb500638&w=1060");
 }
 .spinnerLoading {
   height: 70px;
@@ -138,5 +138,5 @@ span.badge {
   font-size: 1.7em;
 }
 img.card-img-top {
-  filter: drop-shadow(1px 2px 7px black);
+  filter: drop-shadow(1px 2px 7px #5a5959);
 }
